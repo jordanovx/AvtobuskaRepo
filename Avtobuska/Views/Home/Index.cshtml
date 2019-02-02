@@ -1,4 +1,4 @@
-﻿@model Avtobuska.Models.Bilet
+﻿@model Avtobuska.ViewModels.IndexViewModel
 
 @await Html.PartialAsync("Carousel")
 
@@ -14,40 +14,13 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="LinijaID" class="control-label"></label>
-                <select asp-for="LinijaID" class="form-control" asp-items="ViewBag.LinijaID"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="SedisteBroj" class="control-label"></label>
-                <input asp-for="SedisteBroj" class="form-control" />
-                <span asp-validation-for="SedisteBroj" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <div class="checkbox">
-                    <label>
-                        <input asp-for="Izdaden" /> @Html.DisplayNameFor(model => model.Izdaden)
-                    </label>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="checkbox">
-                    <label>
-                        <input asp-for="Rezerviran" /> @Html.DisplayNameFor(model => model.Rezerviran)
-                    </label>
-                </div>
-            </div>
-            <div class="form-group">
-                <label asp-for="Cena" class="control-label"></label>
-                <input asp-for="Cena" class="form-control" />
-                <span asp-validation-for="Cena" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-default" />
-            </div>
-        </form>
+        @await Html.PartialAsync("DestinacijaPartial", Model.Destinacija)
+    </div> 
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        @await Html.PartialAsync("LinijaPartial", Model.Linija)
     </div>
 </div>
 

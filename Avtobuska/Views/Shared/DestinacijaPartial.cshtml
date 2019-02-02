@@ -1,0 +1,9 @@
+﻿@model Avtobuska.ViewModels.DestinacijaViewModel
+
+<div class="form-group">
+    <label asp-for="@Model.MestoID" class="control-label">Дестинација</label>
+    <select asp-for="@Model.MestoID" class="form-control" asp-items="Model.MestaList"></select>
+</div>
+<div>
+    <a  asp-controller="Home" asp-action="SetDestination" asp-route-id="@Model.MestoID" class="btn btn-default">Избери дестинација</a>
+</div>

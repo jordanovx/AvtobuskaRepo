@@ -30,7 +30,6 @@ c:\users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Deb
 c:\users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Avtobuska.pdb
 c:\users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Avtobuska.csproj.CopyComplete
 c:\users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\AvtobuskiStanici\Index.g.cshtml.cs
-c:\users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Avtobuska.csprojAssemblyReference.cache
 c:\users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Mestoes\Create.g.cshtml.cs
 c:\users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Mestoes\Delete.g.cshtml.cs
 c:\users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Mestoes\Details.g.cshtml.cs
@@ -41,11 +40,6 @@ C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Deb
 C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Prevozniks\Details.g.cshtml.cs
 C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Prevozniks\Edit.g.cshtml.cs
 C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Prevozniks\Index.g.cshtml.cs
-C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Bilet\Create.g.cshtml.cs
-C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Bilet\Delete.g.cshtml.cs
-C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Bilet\Details.g.cshtml.cs
-C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Bilet\Edit.g.cshtml.cs
-C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Bilet\Index.g.cshtml.cs
 C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Linija\Create.g.cshtml.cs
 C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Linija\Delete.g.cshtml.cs
 C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Linija\Details.g.cshtml.cs
@@ -57,3 +51,6 @@ C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Deb
 C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Stanica\Edit.g.cshtml.cs
 C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Stanica\Index.g.cshtml.cs
 C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Carousel.g.cshtml.cs
+C:\Users\jh229\Documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Avtobuska.csprojAssemblyReference.cache
+C:\Users\jh229\Documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Shared\LinijaPartial.g.cshtml.cs
+C:\Users\jh229\Documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Shared\DestinacijaPartial.g.cshtml.cs

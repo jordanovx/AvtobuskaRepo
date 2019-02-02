@@ -47,7 +47,7 @@ namespace Avtobuska.Views
         // GET: Bilet/Create
         public IActionResult Create()
         {
-            ViewData["LinijaID"] = new SelectList(_context.Linija, "ID", "ID");
+            ViewData["LinijaID"] = new SelectList(_context.Linija, "ID", "Name");
             return View();
         }
 

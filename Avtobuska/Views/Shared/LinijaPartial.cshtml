@@ -1,0 +1,10 @@
+﻿@model Avtobuska.ViewModels.LinijaViewModel
+
+
+<div class="form-group">
+    <label asp-for="LinijaID" class="control-label">Линија</label>
+    <select asp-for="LinijaID" class="form-control" asp-items="Model.Linii"></select>
+</div>
+<div>
+    <button type="submit" asp-controller="Home" asp-action="SetDestination" asp-route-id="LinijaID" class="btn btn-default">Избери лSинија</button>
+</div>
