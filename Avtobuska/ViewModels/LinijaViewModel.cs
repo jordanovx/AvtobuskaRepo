@@ -10,5 +10,6 @@ namespace Avtobuska.ViewModels
     {
         public int LinijaID { get; set; }
         public SelectList Linii { get; set; }
+        public bool Povraten { get; set; }
     }
 }

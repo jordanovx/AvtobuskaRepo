@@ -54,3 +54,4 @@ C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Deb
 C:\Users\jh229\Documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Avtobuska.csprojAssemblyReference.cache
 C:\Users\jh229\Documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Shared\LinijaPartial.g.cshtml.cs
 C:\Users\jh229\Documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Shared\DestinacijaPartial.g.cshtml.cs
+C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Shared\BiletPartial.g.cshtml.cs

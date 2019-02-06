@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Avtobuska.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Avtobuska.ViewModels;
+using Microsoft.EntityFrameworkCore;
 
 namespace Avtobuska.Controllers
 {
@@ -19,26 +20,39 @@ namespace Avtobuska.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int? MestoID = null, int? LinijaID = null, bool Povraten = false)
         {
             var model = new IndexViewModel();
-            model.Destinacija = new DestinacijaViewModel();
-            model.Linija = new LinijaViewModel();
-
+          
             model.Destinacija.MestaList = new SelectList(_context.Mesto, "ID", "Name");
+            
+
+            if (MestoID != null)
+            {
+                var liniiii = (from linija in _context.Linija
+                               from stanica in linija.Stanici
+                               where stanica.MestoID == (int)MestoID
+                               select new Linija
+                               {
+                                   ID = linija.ID,
+                                   Name = $"{linija.VremeNaTrgnuvanje.ToString("hh:mm")} - {linija.Name} ({linija.Prevoznik.Name})"
+                               })
+                              .Include(l => l.Prevoznik)
+                              .ToList();
+
+                model.Linija.Linii = new SelectList(liniiii, "ID", "Name");
+            }
+
+            if (LinijaID != null)
+            {
+                var linija = _context.Linija.Where(l => l.ID == LinijaID)
+                                            .Include(l => l.Prevoznik).SingleOrDefault();
+                model.Bilet.Linija = linija;
+                model.Bilet.Destinacija = _context.Stanica.Where(m => m.ID == MestoID).SingleOrDefault();
+                model.Bilet.Povraten = Povraten;
+            }
 
             return View(model);
-        }
-
-        public IActionResult SetDestination(int id)
-        {
-            
-            var liniiii = _context.Linija.ToList();
-            var linijaViewModel = new LinijaViewModel();
-            linijaViewModel.Linii = new SelectList(liniiii, "ID", "Name");
-
-            return PartialView("LinijaPartial", linijaViewModel);
-            
         }
 
         public IActionResult About()

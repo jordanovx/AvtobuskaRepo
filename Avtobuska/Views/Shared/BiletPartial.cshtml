@@ -1,0 +1,26 @@
+﻿@model Avtobuska.Models.Bilet
+
+
+<div>
+    Vreme Na trgnuvanje: @Model.Linija.VremeNaTrgnuvanje.ToString("HH:mm")
+</div>
+
+<div>
+    Destinacija: @Model.Destinacija.Name
+</div>
+
+<div>
+    Peron broj: @Model.Linija.Peron
+</div>
+
+<div>
+    Tip na bilet:
+    @if (Model.Povraten)
+    {
+        <span>POVRATEN</span>
+    }
+    else
+    {
+        <span>NEPOVRATEN </span>
+    }
+</div>

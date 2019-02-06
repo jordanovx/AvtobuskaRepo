@@ -7,22 +7,19 @@
     ViewData["Title"] = "Home Page";
 }
 
-
-<h2>Create</h2>
-
-<h4>Bilet</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-3">
         @await Html.PartialAsync("DestinacijaPartial", Model.Destinacija)
-    </div> 
-</div>
-
-<div class="row">
-    <div class="col-md-4">
+    </div>
+    <div class="col-md-3">
         @await Html.PartialAsync("LinijaPartial", Model.Linija)
     </div>
+    <div class="col-md-3">
+        @await Html.PartialAsync("BiletPartial", Model.Bilet)
+    </div>
 </div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

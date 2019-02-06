@@ -1,10 +1,17 @@
 ﻿@model Avtobuska.ViewModels.LinijaViewModel
 
 
-<div class="form-group">
-    <label asp-for="LinijaID" class="control-label">Линија</label>
-    <select asp-for="LinijaID" class="form-control" asp-items="Model.Linii"></select>
-</div>
-<div>
-    <button type="submit" asp-controller="Home" asp-action="SetDestination" asp-route-id="LinijaID" class="btn btn-default">Избери лSинија</button>
-</div>
+<form asp-controller="Home" asp-action="SetDestination" method="get">
+    <div class="form-group">
+        <label asp-for="LinijaID" class="control-label">Линија</label>
+        <select asp-for="LinijaID" class="form-control" asp-items="Model.Linii"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Povraten" class="control-label">Повратен билет</label>
+        <br />
+        <input asp-for="Povraten" />
+    </div>
+    <div>
+        <button type="submit" asp-route-id="LinijaID" class="btn btn-default">Избери Линија</button>
+    </div>
+</form>

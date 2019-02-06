@@ -17,7 +17,7 @@ namespace Avtobuska.Models
         public int PrevoznikID { get; set; }
         public Prevoznik Prevoznik{ get; set; }
 
-        List <Stanica> Stanica { get; set; }
+        public List <Stanica> Stanici { get; set; }
 
         public int BrojNaSedista { get; set; }
         public int Peron { get; set; }
