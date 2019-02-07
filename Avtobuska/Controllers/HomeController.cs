@@ -39,20 +39,33 @@ namespace Avtobuska.Controllers
                                })
                               .Include(l => l.Prevoznik)
                               .ToList();
-
+                model.Linija.MestoID = (int)MestoID;
                 model.Linija.Linii = new SelectList(liniiii, "ID", "Name");
             }
 
             if (LinijaID != null)
             {
-                var linija = _context.Linija.Where(l => l.ID == LinijaID)
-                                            .Include(l => l.Prevoznik).SingleOrDefault();
-                model.Bilet.Linija = linija;
-                model.Bilet.Destinacija = _context.Stanica.Where(m => m.ID == MestoID).SingleOrDefault();
+                model.Bilet.Linija = _context.Linija.Where(l => l.ID == LinijaID)
+                                            .Include(l => l.Prevoznik)
+                                            .SingleOrDefault();
+                
+                model.Bilet.Destinacija = _context.Stanica.Where(m => m.MestoID == MestoID)
+                                                  .Include(s => s.Mesto)
+                                                  .SingleOrDefault();
+                
                 model.Bilet.Povraten = Povraten;
             }
 
             return View(model);
+        }
+
+        public IActionResult Reserviraj(Bilet bilet)
+        {
+            bilet.DatumNaKupuvanje = DateTime.Now;
+            bilet.DatumNaVazenje = DateTime.Now.AddMonths(1);
+            
+
+            return View();
         }
 
         public IActionResult About()

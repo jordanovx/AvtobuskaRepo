@@ -2,6 +2,7 @@
 
 
 <form asp-controller="Home" asp-action="SetDestination" method="get">
+    <input asp-for="MestoID" hidden/>
     <div class="form-group">
         <label asp-for="LinijaID" class="control-label">Линија</label>
         <select asp-for="LinijaID" class="form-control" asp-items="Model.Linii"></select>

@@ -1,26 +1,45 @@
 ﻿@model Avtobuska.Models.Bilet
 
 
-<div>
-    Vreme Na trgnuvanje: @Model.Linija.VremeNaTrgnuvanje.ToString("HH:mm")
-</div>
+@if(Model.Linija != null)
+{
 
-<div>
-    Destinacija: @Model.Destinacija.Name
-</div>
 
-<div>
-    Peron broj: @Model.Linija.Peron
-</div>
+<form asp-controller="Home" asp-action="Reserviraj" method="post">
+    <div>
+        Vreme Na trgnuvanje: @Model.Linija.VremeNaTrgnuvanje.ToString("HH:mm")
+    </div>
 
-<div>
-    Tip na bilet:
-    @if (Model.Povraten)
-    {
-        <span>POVRATEN</span>
-    }
-    else
-    {
-        <span>NEPOVRATEN </span>
-    }
-</div>
+    <div>
+        Destinacija: @Model.Destinacija.Mesto.Name
+    </div>
+
+    <div>
+        Tip na bilet:
+        @if (Model.Povraten)
+        {
+            <span>POVRATEN</span>
+        }
+        else
+        {
+            <span>NEPOVRATEN </span>
+        }
+    </div>
+    <div>
+        Cena:
+        @if (Model.Povraten)
+        {
+            <strong>@Model.Destinacija.CenaNaPovraten</strong>
+        }
+        else
+        {
+            <strong>@Model.Destinacija.CenaNaEdenPravec</strong>
+        }
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-default">Резервирај</button>
+    </div>
+</form>
+
+}

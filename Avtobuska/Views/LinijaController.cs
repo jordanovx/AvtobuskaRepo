@@ -47,7 +47,7 @@ namespace Avtobuska.Views
         // GET: Linija/Create
         public IActionResult Create()
         {
-            ViewData["PrevoznikID"] = new SelectList(_context.Prevoznik, "ID", "ID");
+            ViewData["PrevoznikID"] = new SelectList(_context.Prevoznik, "ID", "Name");
             return View();
         }
 
@@ -64,7 +64,7 @@ namespace Avtobuska.Views
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PrevoznikID"] = new SelectList(_context.Prevoznik, "ID", "ID", linija.PrevoznikID);
+            ViewData["PrevoznikID"] = new SelectList(_context.Prevoznik, "ID", "Name", linija.PrevoznikID);
             return View(linija);
         }
 
@@ -81,7 +81,7 @@ namespace Avtobuska.Views
             {
                 return NotFound();
             }
-            ViewData["PrevoznikID"] = new SelectList(_context.Prevoznik, "ID", "ID", linija.PrevoznikID);
+            ViewData["PrevoznikID"] = new SelectList(_context.Prevoznik, "ID", "Name", linija.PrevoznikID);
             return View(linija);
         }
 
@@ -117,7 +117,7 @@ namespace Avtobuska.Views
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PrevoznikID"] = new SelectList(_context.Prevoznik, "ID", "ID", linija.PrevoznikID);
+            ViewData["PrevoznikID"] = new SelectList(_context.Prevoznik, "ID", "Name", linija.PrevoznikID);
             return View(linija);
         }
 

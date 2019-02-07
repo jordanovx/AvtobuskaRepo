@@ -48,8 +48,8 @@ namespace Avtobuska.Views
         // GET: Stanica/Create
         public IActionResult Create()
         {
-            ViewData["LinijaID"] = new SelectList(_context.Linija, "ID", "ID");
-            ViewData["MestoID"] = new SelectList(_context.Mesto, "ID", "ID");
+            ViewData["LinijaID"] = new SelectList(_context.Linija, "ID", "Name");
+            ViewData["MestoID"] = new SelectList(_context.Mesto, "ID", "Name");
             return View();
         }
 
@@ -66,8 +66,8 @@ namespace Avtobuska.Views
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["LinijaID"] = new SelectList(_context.Linija, "ID", "ID", stanica.LinijaID);
-            ViewData["MestoID"] = new SelectList(_context.Mesto, "ID", "ID", stanica.MestoID);
+            ViewData["LinijaID"] = new SelectList(_context.Linija, "ID", "Name", stanica.LinijaID);
+            ViewData["MestoID"] = new SelectList(_context.Mesto, "ID", "Name", stanica.MestoID);
             return View(stanica);
         }
 
@@ -84,8 +84,8 @@ namespace Avtobuska.Views
             {
                 return NotFound();
             }
-            ViewData["LinijaID"] = new SelectList(_context.Linija, "ID", "ID", stanica.LinijaID);
-            ViewData["MestoID"] = new SelectList(_context.Mesto, "ID", "ID", stanica.MestoID);
+            ViewData["LinijaID"] = new SelectList(_context.Linija, "ID", "Name", stanica.LinijaID);
+            ViewData["MestoID"] = new SelectList(_context.Mesto, "ID", "Name", stanica.MestoID);
             return View(stanica);
         }
 
@@ -121,8 +121,8 @@ namespace Avtobuska.Views
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["LinijaID"] = new SelectList(_context.Linija, "ID", "ID", stanica.LinijaID);
-            ViewData["MestoID"] = new SelectList(_context.Mesto, "ID", "ID", stanica.MestoID);
+            ViewData["LinijaID"] = new SelectList(_context.Linija, "ID", "Name", stanica.LinijaID);
+            ViewData["MestoID"] = new SelectList(_context.Mesto, "ID", "Name", stanica.MestoID);
             return View(stanica);
         }
 
