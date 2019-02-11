@@ -12536,11 +12536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\jh229\\documents\\visual studio 2017\\Projects\\Avtobuska\\Avtobuska\\Avtobuska.csproj",
+      "projectUniqueName": "C:\\Users\\jh229\\documents\\visual studio 2017\\Projects\\Avtobuska\\Avtobuska\\Avtobuska.csproj",
       "projectName": "Avtobuska",
-      "projectPath": "c:\\users\\jh229\\documents\\visual studio 2017\\Projects\\Avtobuska\\Avtobuska\\Avtobuska.csproj",
+      "projectPath": "C:\\Users\\jh229\\documents\\visual studio 2017\\Projects\\Avtobuska\\Avtobuska\\Avtobuska.csproj",
       "packagesPath": "C:\\Users\\jh229\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\jh229\\documents\\visual studio 2017\\Projects\\Avtobuska\\Avtobuska\\obj\\",
+      "outputPath": "C:\\Users\\jh229\\documents\\visual studio 2017\\Projects\\Avtobuska\\Avtobuska\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
