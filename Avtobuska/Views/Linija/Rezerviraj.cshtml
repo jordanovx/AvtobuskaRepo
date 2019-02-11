@@ -1,0 +1,72 @@
+﻿@model Avtobuska.Models.Bilet
+
+@{
+    ViewData["Title"] = "Rezerviraj";
+}
+
+<h2>Резервирање</h2>
+
+<div>
+    <h4>Детали за билет:</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Билет број
+        </dt>
+        <dd>
+            @Model.ID
+        </dd>
+        <dt>
+            Дестинација
+        </dt>
+        <dd>
+            @Model.Destinacija.Mesto.Name
+        </dd>
+        <dt>
+            Линија
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Linija.Name)
+        </dd>
+        <dt>
+            Превозник
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Linija.Prevoznik.Name)
+        </dd>
+        <dt>
+            Време на тргнување
+        </dt>
+        <dd>
+            @Model.Linija.VremeNaTrgnuvanje.ToString("hh:mm")
+        </dd>
+        <dt>
+            Цена
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cena)
+        </dd>
+        <dt>
+            Перон
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Linija.Peron)
+        </dd>
+
+        <dt>
+            
+        </dt>
+        <dd>
+            
+        </dd>
+        <dt>
+           *билетот важи до
+        </dt>
+        <dd>
+            @Model.DatumNaVazenje.ToString("dd.MM.yyyy")
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="/">Дома</a>
+</div>
