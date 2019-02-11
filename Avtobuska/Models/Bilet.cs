@@ -18,6 +18,5 @@ namespace Avtobuska.Models
         public DateTime DatumNaKupuvanje { get; set; }
         public DateTime DatumNaVazenje { get; set; }
         public decimal Cena { get; set; }
-        public int DestinacijaID { get; internal set; }
     }
 }

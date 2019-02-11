@@ -12536,11 +12536,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\jh229\\documents\\visual studio 2017\\Projects\\Avtobuska\\Avtobuska\\Avtobuska.csproj",
       "projectName": "Avtobuska",
       "projectPath": "C:\\Users\\jh229\\documents\\visual studio 2017\\Projects\\Avtobuska\\Avtobuska\\Avtobuska.csproj",
       "packagesPath": "C:\\Users\\jh229\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\jh229\\documents\\visual studio 2017\\Projects\\Avtobuska\\Avtobuska\\obj\\",
+=======
+      "projectUniqueName": "c:\\users\\jh229\\documents\\visual studio 2017\\Projects\\Avtobuska\\Avtobuska\\Avtobuska.csproj",
+      "projectName": "Avtobuska",
+      "projectPath": "c:\\users\\jh229\\documents\\visual studio 2017\\Projects\\Avtobuska\\Avtobuska\\Avtobuska.csproj",
+      "packagesPath": "C:\\Users\\jh229\\.nuget\\packages\\",
+      "outputPath": "c:\\users\\jh229\\documents\\visual studio 2017\\Projects\\Avtobuska\\Avtobuska\\obj\\",
+>>>>>>> parent of b625b16... bilets are saving in db
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

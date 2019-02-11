@@ -97,7 +97,11 @@ using Microsoft.AspNetCore.Http.Features;
                     ");
             EndContext();
             BeginContext(1234, 92, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3a74f7ebf92b415bb875b71ff8c3df03", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6a0f0744ef65413cb26c1d6e144e7a8f", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
                 BeginContext(1312, 10, true);
                 WriteLiteral("Learn More");
                 EndContext();

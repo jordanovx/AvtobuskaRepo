@@ -55,6 +55,7 @@ C:\Users\jh229\Documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Deb
 C:\Users\jh229\Documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Shared\LinijaPartial.g.cshtml.cs
 C:\Users\jh229\Documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Shared\DestinacijaPartial.g.cshtml.cs
 C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Shared\BiletPartial.g.cshtml.cs
+<<<<<<< HEAD
 C:\Users\za_de_000\source\repos\AvtobuskaRepo\Avtobuska\bin\Debug\netcoreapp2.1\Avtobuska.deps.json
 C:\Users\za_de_000\source\repos\AvtobuskaRepo\Avtobuska\bin\Debug\netcoreapp2.1\Avtobuska.runtimeconfig.json
 C:\Users\za_de_000\source\repos\AvtobuskaRepo\Avtobuska\bin\Debug\netcoreapp2.1\Avtobuska.runtimeconfig.dev.json
@@ -114,3 +115,5 @@ C:\Users\za_de_000\source\repos\AvtobuskaRepo\Avtobuska\obj\Debug\netcoreapp2.1\
 C:\Users\za_de_000\source\repos\AvtobuskaRepo\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Home\Rezerviraj.g.cshtml.cs
 C:\Users\za_de_000\source\repos\AvtobuskaRepo\Avtobuska\obj\Debug\netcoreapp2.1\Avtobuska.csprojAssemblyReference.cache
 C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\obj\Debug\netcoreapp2.1\Razor\Views\Linija\Rezerviraj.g.cshtml.cs
+=======
+>>>>>>> parent of b625b16... bilets are saving in db

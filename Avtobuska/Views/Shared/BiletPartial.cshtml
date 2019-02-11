@@ -5,19 +5,20 @@
 {
 
 
-<form asp-controller="Home" asp-action="Rezerviraj" method="post">
+<form asp-controller="Home" asp-action="Reserviraj" method="post">
     <div>
-        Време на тргнување: @Model.Linija.VremeNaTrgnuvanje.ToString("HH:mm")
+        Vreme Na trgnuvanje: @Model.Linija.VremeNaTrgnuvanje.ToString("HH:mm")
     </div>
 
     <div>
-        Дестинација: @Model.Destinacija.Mesto.Name
+        Destinacija: @Model.Destinacija.Mesto.Name
     </div>
 
     <div>
-        Тип на билет:
+        Tip na bilet:
         @if (Model.Povraten)
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             <span>Повратен</span>
         }
@@ -38,21 +39,32 @@
         }
 =======
             <span>ПОВРАТЕН</span>
+=======
+            <span>POVRATEN</span>
+>>>>>>> parent of b625b16... bilets are saving in db
         }
         else
         {
-            <span>НЕПОВРАТЕН </span>
+            <span>NEPOVRATEN </span>
         }
     </div>
     <div>
+<<<<<<< HEAD
         Цена на билетот: @Model.Cena
 >>>>>>> b625b16bcec25f25e1783d99dbf5c475f545e804
+=======
+        Cena:
+        @if (Model.Povraten)
+        {
+            <strong>@Model.Destinacija.CenaNaPovraten</strong>
+        }
+        else
+        {
+            <strong>@Model.Destinacija.CenaNaEdenPravec</strong>
+        }
+>>>>>>> parent of b625b16... bilets are saving in db
     </div>
 
-    <input asp-for="LinijaID" hidden />
-    <input asp-for="Destinacija.ID"  hidden/>
-    <input asp-for="Povraten" hidden />
-    <input asp-for="Cena" hidden/>
     <div>
         <button type="submit" class="btn btn-default">Резервирај</button>
     </div>

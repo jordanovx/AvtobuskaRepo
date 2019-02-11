@@ -48,45 +48,24 @@ namespace Avtobuska.Controllers
                 model.Bilet.Linija = _context.Linija.Where(l => l.ID == LinijaID)
                                             .Include(l => l.Prevoznik)
                                             .SingleOrDefault();
-                model.Bilet.LinijaID = (int)LinijaID;
                 
-                model.Bilet.Destinacija = _context.Stanica.Where(m => m.LinijaID == LinijaID  && m.MestoID == MestoID)
+                model.Bilet.Destinacija = _context.Stanica.Where(m => m.MestoID == MestoID)
                                                   .Include(s => s.Mesto)
-                                                  .FirstOrDefault();
-                model.Bilet.DestinacijaID = model.Bilet.Destinacija.ID;
-
+                                                  .SingleOrDefault();
+                
                 model.Bilet.Povraten = Povraten;
-
-                if (model.Bilet.Povraten)
-                {
-                    model.Bilet.Cena = model.Bilet.Destinacija.CenaNaPovraten;
-                }
-                else
-                {
-                    model.Bilet.Cena = model.Bilet.Destinacija.CenaNaEdenPravec;
-                }
-
-
             }
 
             return View(model);
         }
 
-        public IActionResult Rezerviraj(Bilet bilet)
+        public IActionResult Reserviraj(Bilet bilet)
         {
             bilet.DatumNaKupuvanje = DateTime.Now;
             bilet.DatumNaVazenje = DateTime.Now.AddMonths(1);
+            
 
-            bilet.Linija = _context.Linija.Where(l => l.ID == bilet.LinijaID)
-                                            .Include(l => l.Prevoznik)
-                                            .FirstOrDefault(); 
-            bilet.Destinacija = _context.Stanica.Where(s => s.ID == bilet.Destinacija.ID)
-                                                .Include(m => m.Mesto)
-                                                .FirstOrDefault();
-            
-            _context.Bilet.Add(bilet);
-            
-            return View(bilet);
+            return View();
         }
 
         public IActionResult About()
