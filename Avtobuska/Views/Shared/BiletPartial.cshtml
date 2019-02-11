@@ -7,26 +7,26 @@
 
 <form asp-controller="Home" asp-action="Reserviraj" method="post">
     <div>
-        Vreme Na trgnuvanje: @Model.Linija.VremeNaTrgnuvanje.ToString("HH:mm")
+        Време на тргнување: @Model.Linija.VremeNaTrgnuvanje.ToString("HH:mm")
     </div>
 
     <div>
-        Destinacija: @Model.Destinacija.Mesto.Name
+        Дестинација: @Model.Destinacija.Mesto.Name
     </div>
 
     <div>
-        Tip na bilet:
+        Тип на билет:
         @if (Model.Povraten)
         {
-            <span>POVRATEN</span>
+            <span>Повратен</span>
         }
         else
         {
-            <span>NEPOVRATEN </span>
+            <span>Еден правец </span>
         }
     </div>
     <div>
-        Cena:
+        Цена:
         @if (Model.Povraten)
         {
             <strong>@Model.Destinacija.CenaNaPovraten</strong>
