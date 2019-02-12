@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "baf5c1ea6949dfb02582e0d7f89615235a3de687"
+=======
+#pragma checksum "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "e3f676f68fb703e18054842d5d01f4721f89cac2"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #pragma checksum "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "e3f676f68fb703e18054842d5d01f4721f89cac2"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -79,8 +83,13 @@ using Avtobuska.Models;
             WriteLiteral("\r\n<h2>Edit</h2>\r\n\r\n<h4>Stanica</h4>\r\n<hr />\r\n<div class=\"row\">\r\n    <div class=\"col-md-4\">\r\n        ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(175, 1539, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d606e997b3fd483d86ec09d247ff285d", async() => {
+=======
+            BeginContext(175, 1807, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b8ac4c11489c43eeaefae2e9a8764a90", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             BeginContext(175, 1807, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b8ac4c11489c43eeaefae2e9a8764a90", async() => {
@@ -90,7 +99,11 @@ using Avtobuska.Models;
                 EndContext();
                 BeginContext(213, 66, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "747d6da04a04439a8c277dbab2560c40", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b64db0f702645a3ac944ee27e8b4ed9", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b64db0f702645a3ac944ee27e8b4ed9", async() => {
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -118,7 +131,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationSummaryTagHelper.ValidationSumma
                 EndContext();
                 BeginContext(293, 36, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "69a0a80d51e24299b4459e3f2dc12a78", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fed2ae77cb0840df9a7c8daa26eb0882", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fed2ae77cb0840df9a7c8daa26eb0882", async() => {
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -146,9 +163,12 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n            <div class=\"form-group\">\r\n                ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(385, 55, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c6edfe2da1794ca68099309bdae7658b", async() => {
 =======
+=======
+>>>>>>> parent of b625b16... bilets are saving in db
                 BeginContext(385, 52, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0baeb765009849f481d19c08a119e123", async() => {
                 }
@@ -223,13 +243,20 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 EndContext();
                 BeginContext(653, 55, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "58301fd9c895457bac74e7e031ac1310", async() => {
+<<<<<<< HEAD
+>>>>>>> parent of b625b16... bilets are saving in db
+=======
 >>>>>>> parent of b625b16... bilets are saving in db
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 17 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 22 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 22 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -251,8 +278,13 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(458, 84, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ea799e0cf5ce43579d6ff28d1b96e96c", async() => {
+=======
+                BeginContext(726, 84, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c96a6cb91b04b57991e9e4bd6c6525a", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
                 BeginContext(726, 84, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c96a6cb91b04b57991e9e4bd6c6525a", async() => {
@@ -262,7 +294,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 18 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 23 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 23 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -273,7 +309,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-for", __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_3);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 18 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 23 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 23 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -294,8 +334,13 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = ViewBag.MestoID;
                 WriteLiteral("\r\n                ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(560, 62, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fe13c28ea5b845408e367d0121f9d10a", async() => {
+=======
+                BeginContext(828, 62, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "16e5b6278cd44a0fa0d75e577e03f070", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
                 BeginContext(828, 62, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "16e5b6278cd44a0fa0d75e577e03f070", async() => {
@@ -305,7 +350,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = ViewBag.MestoID;
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 19 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 24 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 24 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -327,8 +376,13 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 WriteLiteral("\r\n            </div>\r\n            <div class=\"form-group\">\r\n                ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(698, 56, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "df1fffbc4b70486da9fb9596ce0dff24", async() => {
+=======
+                BeginContext(966, 56, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c3c2f0603f24f548f3c538b141cadfa", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
                 BeginContext(966, 56, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c3c2f0603f24f548f3c538b141cadfa", async() => {
@@ -338,7 +392,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 22 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 27 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 27 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -360,8 +418,13 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(772, 86, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "801bb38308364e6f9bc071ed38b514b7", async() => {
+=======
+                BeginContext(1040, 86, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "022f0e6c6ba048b2ae1ae2e65442878d", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
                 BeginContext(1040, 86, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("select", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "022f0e6c6ba048b2ae1ae2e65442878d", async() => {
@@ -371,7 +434,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.SelectTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 23 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 28 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 28 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -382,7 +449,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For = ModelExpressionProvi
                 __tagHelperExecutionContext.AddTagHelperAttribute("asp-for", __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.For, global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
                 __tagHelperExecutionContext.AddHtmlAttribute(__tagHelperAttribute_3);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 23 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 28 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 28 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -403,8 +474,13 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = ViewBag.LinijaID;
                 WriteLiteral("\r\n                ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(876, 63, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bf3f39cdd1ff49fb9b19cf5a5a32c86e", async() => {
+=======
+                BeginContext(1144, 63, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4bab38ffe532428dbda72e403bb501a3", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
                 BeginContext(1144, 63, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4bab38ffe532428dbda72e403bb501a3", async() => {
@@ -414,7 +490,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_SelectTagHelper.Items = ViewBag.LinijaID;
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 24 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 29 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 29 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -436,8 +516,13 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 WriteLiteral("\r\n            </div>\r\n            <div class=\"form-group\">\r\n                ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1015, 64, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c1c9e2ad69774801bc9323c434156984", async() => {
+=======
+                BeginContext(1283, 64, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "907a404989ff4d43963ae85031afd24f", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
                 BeginContext(1283, 64, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "907a404989ff4d43963ae85031afd24f", async() => {
@@ -447,7 +532,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 27 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 32 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 32 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -469,8 +558,13 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1097, 57, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "82a7be022ea74bfe99bcc6bf6459fa38", async() => {
+=======
+                BeginContext(1365, 57, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d0d3b9720f7447a4889a0201d58621f2", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
                 BeginContext(1365, 57, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d0d3b9720f7447a4889a0201d58621f2", async() => {
@@ -480,7 +574,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 28 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 33 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 33 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -502,8 +600,13 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1172, 71, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fb9732aadeb74a31b3e1e05d662df6ef", async() => {
+=======
+                BeginContext(1440, 71, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "32c2dfbc61d64ddb9c2248df3a480f11", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
                 BeginContext(1440, 71, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "32c2dfbc61d64ddb9c2248df3a480f11", async() => {
@@ -513,7 +616,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 29 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 34 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 34 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -535,8 +642,13 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 WriteLiteral("\r\n            </div>\r\n            <div class=\"form-group\">\r\n                ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1319, 62, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d15f2c76bede4f15a5025941edab8129", async() => {
+=======
+                BeginContext(1587, 62, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ab31407b455e47fe84ac60e6fbe30d7a", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
                 BeginContext(1587, 62, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("label", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ab31407b455e47fe84ac60e6fbe30d7a", async() => {
@@ -546,7 +658,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.LabelTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 32 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 37 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 37 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -568,8 +684,13 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1399, 55, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "b583badb7deb4ee78ffa0a64d49a309e", async() => {
+=======
+                BeginContext(1667, 55, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4b2b004d24e1426386522240e431f9b1", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
                 BeginContext(1667, 55, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4b2b004d24e1426386522240e431f9b1", async() => {
@@ -579,7 +700,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_LabelTagHelper.For = ModelExpressionProvid
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 33 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 38 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 38 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -601,8 +726,13 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 WriteLiteral("\r\n                ");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
                 BeginContext(1472, 69, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67dd53eab00d4daca0297616ebb82996", async() => {
+=======
+                BeginContext(1740, 69, false);
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0031e63144f341369b410f4ba54806fa", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
                 BeginContext(1740, 69, false);
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0031e63144f341369b410f4ba54806fa", async() => {
@@ -612,7 +742,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper>();
                 __tagHelperExecutionContext.Add(__Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper);
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 34 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 39 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 39 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -653,9 +787,15 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
             WriteLiteral("\r\n    </div>\r\n</div>\r\n\r\n<div>\r\n    ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(1749, 38, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ed752c27060143ff96c2c97778fd0ee2", async() => {
                 BeginContext(1771, 12, true);
+=======
+            BeginContext(2017, 38, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6d20be714c4d474cb4a7f1e2cdc54a8d", async() => {
+                BeginContext(2039, 12, true);
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             BeginContext(2017, 38, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6d20be714c4d474cb4a7f1e2cdc54a8d", async() => {
@@ -685,7 +825,11 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 WriteLiteral("\r\n");
                 EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 48 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+=======
+#line 53 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 53 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Edit.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db

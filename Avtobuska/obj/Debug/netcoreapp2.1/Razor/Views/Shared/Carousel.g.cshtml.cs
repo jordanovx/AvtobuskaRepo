@@ -69,7 +69,11 @@ using Avtobuska.Models;
             EndContext();
             BeginContext(437, 70, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4d8a8724bbfe465fbfa94654d6fdbc52", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6fa77040dde140c3bcc77113f50c80ae", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "6fa77040dde140c3bcc77113f50c80ae", async() => {
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -93,7 +97,11 @@ using Avtobuska.Models;
             EndContext();
             BeginContext(565, 75, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "909b39e1e90949d5a903f674e982dadd", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "979130620b054d62a96e85d161f0cf52", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "979130620b054d62a96e85d161f0cf52", async() => {
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -117,7 +125,11 @@ using Avtobuska.Models;
             EndContext();
             BeginContext(698, 77, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d8ca15e103db4b7aba3eb026079ce8bf", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a5d1361ddfb74fb4989526c860985c62", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a5d1361ddfb74fb4989526c860985c62", async() => {
 >>>>>>> parent of b625b16... bilets are saving in db

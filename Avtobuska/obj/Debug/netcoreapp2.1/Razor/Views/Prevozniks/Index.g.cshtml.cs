@@ -67,7 +67,11 @@ using Avtobuska.Models;
             EndContext();
             BeginContext(120, 37, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "789926136b2c4a0ba9f88be21e2e0115", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3cd418c490a845d49f77e9acbdca1d3a", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3cd418c490a845d49f77e9acbdca1d3a", async() => {
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -121,7 +125,11 @@ using Avtobuska.Models;
             EndContext();
             BeginContext(551, 53, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d54e07f9a63242259a8802c7cda458dd", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "62b7d8f7b7df415f9342d70974e552f1", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "62b7d8f7b7df415f9342d70974e552f1", async() => {
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -160,7 +168,11 @@ using Avtobuska.Models;
             EndContext();
             BeginContext(624, 59, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c4873961985f47c2b1fa6e8ffadb1db8", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12d6bc4685a14233a7e88d46c9faf2d9", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "12d6bc4685a14233a7e88d46c9faf2d9", async() => {
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -199,7 +211,11 @@ using Avtobuska.Models;
             EndContext();
             BeginContext(703, 57, false);
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7bda7b6316f40dab190423d3fb22acf", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0fe156cbc4f44a06aa12af1f07226664", async() => {
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0fe156cbc4f44a06aa12af1f07226664", async() => {
 >>>>>>> parent of b625b16... bilets are saving in db

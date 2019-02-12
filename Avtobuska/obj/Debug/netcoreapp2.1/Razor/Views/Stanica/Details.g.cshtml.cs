@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "af2d20b9f57d917bf01bcdde26b93b5f4f0d3252"
+=======
+#pragma checksum "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "1cf7033818bcbdae4f521cfd194eaa9e3830e375"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #pragma checksum "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "1cf7033818bcbdae4f521cfd194eaa9e3830e375"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -68,9 +72,12 @@ using Avtobuska.Models;
             WriteLiteral("\r\n<h2>Details</h2>\r\n\r\n<div>\r\n    <h4>Stanica</h4>\r\n    <hr />\r\n    <dl class=\"dl-horizontal\">\r\n        <dt>\r\n            ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(207, 41, false);
 #line 15 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
 =======
+=======
+>>>>>>> parent of b625b16... bilets are saving in db
             BeginContext(200, 40, false);
 #line 14 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
        Write(Html.DisplayNameFor(model => model.Name));
@@ -93,6 +100,9 @@ using Avtobuska.Models;
             EndContext();
             BeginContext(364, 41, false);
 #line 20 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+<<<<<<< HEAD
+>>>>>>> parent of b625b16... bilets are saving in db
+=======
 >>>>>>> parent of b625b16... bilets are saving in db
        Write(Html.DisplayNameFor(model => model.Mesto));
 
@@ -103,8 +113,13 @@ using Avtobuska.Models;
             WriteLiteral("\r\n        </dt>\r\n        <dd>\r\n            ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(292, 40, false);
 #line 18 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+=======
+            BeginContext(449, 40, false);
+#line 23 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             BeginContext(449, 40, false);
 #line 23 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
@@ -118,8 +133,13 @@ using Avtobuska.Models;
             WriteLiteral("\r\n        </dd>\r\n        <dt>\r\n            ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(376, 42, false);
 #line 21 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+=======
+            BeginContext(533, 42, false);
+#line 26 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             BeginContext(533, 42, false);
 #line 26 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
@@ -133,8 +153,13 @@ using Avtobuska.Models;
             WriteLiteral("\r\n        </dt>\r\n        <dd>\r\n            ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(462, 41, false);
 #line 24 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+=======
+            BeginContext(619, 41, false);
+#line 29 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             BeginContext(619, 41, false);
 #line 29 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
@@ -148,8 +173,13 @@ using Avtobuska.Models;
             WriteLiteral("\r\n        </dd>\r\n        <dt>\r\n            ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(547, 52, false);
 #line 27 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+=======
+            BeginContext(704, 52, false);
+#line 32 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             BeginContext(704, 52, false);
 #line 32 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
@@ -163,8 +193,13 @@ using Avtobuska.Models;
             WriteLiteral("\r\n        </dt>\r\n        <dd>\r\n            ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(643, 48, false);
 #line 30 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+=======
+            BeginContext(800, 48, false);
+#line 35 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             BeginContext(800, 48, false);
 #line 35 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
@@ -178,8 +213,13 @@ using Avtobuska.Models;
             WriteLiteral("\r\n        </dd>\r\n        <dt>\r\n            ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(735, 50, false);
 #line 33 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+=======
+            BeginContext(892, 50, false);
+#line 38 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             BeginContext(892, 50, false);
 #line 38 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
@@ -193,8 +233,13 @@ using Avtobuska.Models;
             WriteLiteral("\r\n        </dt>\r\n        <dd>\r\n            ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(829, 46, false);
 #line 36 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+=======
+            BeginContext(986, 46, false);
+#line 41 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             BeginContext(986, 46, false);
 #line 41 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
@@ -208,9 +253,15 @@ using Avtobuska.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(922, 54, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "70be3ff3f12e4f48a3b99b5787739ae3", async() => {
                 BeginContext(968, 4, true);
+=======
+            BeginContext(1079, 54, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2be8f3a238cb401d864260570d17444d", async() => {
+                BeginContext(1125, 4, true);
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             BeginContext(1079, 54, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2be8f3a238cb401d864260570d17444d", async() => {
@@ -230,7 +281,11 @@ using Avtobuska.Models;
             }
             BeginWriteTagHelperAttribute();
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 41 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+=======
+#line 46 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
 #line 46 "C:\Users\jh229\documents\visual studio 2017\Projects\Avtobuska\Avtobuska\Views\Stanica\Details.cshtml"
 >>>>>>> parent of b625b16... bilets are saving in db
@@ -253,9 +308,15 @@ using Avtobuska.Models;
             WriteLiteral(" |\r\n    ");
             EndContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
             BeginContext(984, 38, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "89cc789a1f5743fa85bd3615de8368e4", async() => {
                 BeginContext(1006, 12, true);
+=======
+            BeginContext(1141, 38, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "667e17ca7f064a5c9756a8fe7149244d", async() => {
+                BeginContext(1163, 12, true);
+>>>>>>> parent of b625b16... bilets are saving in db
 =======
             BeginContext(1141, 38, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "667e17ca7f064a5c9756a8fe7149244d", async() => {
